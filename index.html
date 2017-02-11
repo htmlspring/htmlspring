@@ -6,7 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <script>
+function bgChange(bg) {
+    document.body.style.background = bg;
+}
+</script>
+
   <body>
+<table style="width:300px;height:100px">
+  <tr>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+        onmouseout="bgChange('transparent')"
+        style="background-color:Khaki">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+        onmouseout="bgChange('transparent')"
+        style="background-color:PaleGreen">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+        onmouseout="bgChange('transparent')"
+        style="background-color:Silver">
+    </td>
+  </tr>
+</table>
 
     <div class="main-nav">
         <ul class="nav">
@@ -51,7 +73,7 @@
         <li><a href="#" class="social linkedin">LinkedIn</a></li>
         <li><a href="#" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">No Copyright</p>
+      <p class="copyright">No  Copyright</p>
     </footer>
   </body>
   </html>
